@@ -1,0 +1,27 @@
+MDScreen:
+
+    MDBottomNavigation:
+        selected_color_background: "orange"
+        text_color_active: "lightgrey"
+
+        MDBottomNavigationItem:
+            name: 'screen 1'
+            icon: 'home'
+
+            MDLabel:
+                text: 'home'
+                halign: 'center'
+
+        MDBottomNavigationItem:
+            name: 'screen 2'
+            icon: 'camera'
+            on_tab_press: app.open_camera()
+
+
+        MDBottomNavigationItem:
+            name: 'screen 3'
+            icon: 'account'
+
+            MDLabel:
+                text: 'profile'
+                halign: 'center'
